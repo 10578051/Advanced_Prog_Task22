@@ -165,6 +165,158 @@ main{
 	background: #54524e;
 }
 
+/* SHOP FURNITURE PAGE */
+
+.todo-text-row{
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.detail-text{
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.todo-separator{
+	height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left-heading{
+	float: left;
+    font-family: 'Roboto', sans-serif;
+	background: #F2827F;
+	width: 295px;
+	text-align: left;
+	border-radius: 5px;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-right: 5px;
+	box-shadow: 2px 2px 2px #999;
+	text-transform: uppercase;
+}
+
+.buy-now-button{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+	width: 290px;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, white 50%, grey 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.buy-now-button a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.buy-now-button:hover {
+    background-position: left;
+    mix-blend-mode: exclusion;
+}
+
+
+.left-heading-alt{
+	float: left;
+    font-family: 'Roboto', sans-serif;
+	text-align: left;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-right: 5px;
+	text-transform: uppercase;
+}
+
+.todo-image-row{
+	max-height: 647px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.adventure-photo{
+    float: left;
+	margin-top: 20px;
+	max-height: 900px;
+	width: auto;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999;
+	margin-right: 20px;
+}
+
+#family-photo{
+	margin-top: 20px;
+	max-height: 647px;
+	width: 1000px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999;
+}
+
+#galway-city{
+	margin-top: 20px;
+	max-height: 647px;
+	width: 1000px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999;
+}
+
+#bakery-image{
+	margin-top: 20px;
+	max-height: 647px;
+	width: 1000px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #999;
+}
+
+#bottom-text-1{
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 15px;
+}
+
+#bottom-text-2{
+	height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 18px;
+}
 
 /* FOOTER LINKS */
 
