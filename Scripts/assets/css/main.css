@@ -16,8 +16,8 @@ html, body{
 
 body{
     margin: 0;
-    padding: 0;
-    background: grey;
+    padding: 40;
+    background: white;
 }
 
 nav{
@@ -88,12 +88,18 @@ nav ul li a {
 }
 
 /* main section */
-
-.space-above-header{
-    height: 780px;
-    width: 100%;
+.outer-space-above-header{
+    padding: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.inner-space-above-header{
+    height: 530px;
+    background-color: #fff;
     background-image: url(../../assets/images/green-800x547.png);
-    background-size: auto;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -123,6 +129,7 @@ main{
     max-width: 1000px;
     margin-top: 18px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .image-row{
